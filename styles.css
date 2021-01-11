@@ -1,0 +1,119 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0px;
+  background-color: white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* ____________________________________ SECTION: NAVIGATION-BAR ____________________________________ */
+#navigation-bar {
+  background-color: #ae1c28;
+  color: #FFFFFF;
+}
+
+#footer {
+  margin-bottom: 0px;
+}
+
+.bodyiframe {
+  font-weight: 200;
+  text-align: left;
+  font-size: 0.9rem;
+  margin-top: 0px;
+}
+
+.language-img {
+  width: 50px;
+  margin: 1% 0px;
+}
+
+.nav-img {
+  margin: 1% 10%;
+  padding: 1px;
+  height: 100px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #21468b;
+}
+
+.nav-link.active.navbar-addition {
+  font-style: italic;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  margin-right: 10px;
+}
+
+.nav-link.navbar-addition {
+  color: #FDCBCB;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FDCBCB;
+  margin-right: 10px;
+}
+
+.red-space {
+  background-color: #ae1c28;
+  height: 10px;
+  display: block;
+  margin: 0px;
+}
+
+.white-space {
+  background-color: white;
+  height: 10px;
+  display: block;
+  margin: 0px;
+}
+
+.white-space2 {
+  background-image: url('images/flags.png');
+  background-color: transparent;
+  background-repeat: repeat-x;
+  background-position: lef top;
+  background-size: 125px;
+  height: 28px;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.blue-space {
+  color: white;
+  background-color: #21468b;
+  height: 10px;
+  display: block;
+  margin: 0px;
+  font-size: 0.7rem;
+}
+
+.blue-space2 {
+  color: white;
+  background-color: #21468b;
+  display: block;
+  margin: 0px;
+  font-size: 0.7rem;
+}
+
+.content-frame {
+  border: none;
+  height: 77vh;
+  width: 100%;
+  padding: 1vmax;
+  margin: 0px 15%;
+}
+
+#copyright {
+  margin-bottom: 0;
+}

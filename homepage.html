@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Homepage</title>
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <!-- Personal files -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bodyiframe">
+  <p>The requirements for pset8 Homepage can be found on the website of CS50 2021. (See links & credits).<br>
+    I decided to create a little framework where index.html is the frame and the other files will be integrated in this page by using an iframe.<br>
+    At the top of index.html I created a navigation bar with the links to all the created pages. <br>
+    The target of these links were set to the iframe and will be shown this way in index.html. <br>
+    However you will see just 1 page, there are at least 4 pages on the webpage and this way I met the first rule of the assignment.</p>
+  <h2>HTML</h2>
+  <p>The second rule was to use at least 10 distinct HTML tags besides &lt;html&gt;, &lt;head&gt;, &lt;body&gt; and &lt;title&gt;. This wasn’t a hard thing to do, because I needed already at least 10 different tags for my index.html file.<br>
+    First of all you need a &lt;meta&gt;, &lt;link&gt; and &lt;script&gt; tag to use Bootstap, an external stylesheet and an external js fie. I thought it was a good idea to divide the framework in different sections. I used the &lt;section&gt; and
+    the &lt;footer&gt; tag for this.<br>
+    I love jokes and because I’m Dutch I decided to integrate the Dutch flag and some orange flags as decoration in the header and the footer.I used some &lt;div&gt tags to make this possible. I still have an empty page and I already have 6 tags!<br>
+    A good page needs a navigation bar. To create this, I needed to make an unsorted list &lt;ul&gt; with list items &lt;li&gt; of links &lt;a&gt; to the other html files. Since I want them in my page I needed to create an iframe &lt;iframe&gt; where
+    these html files were displayed. And there are the 10 different HTML tags!</p>
+  <h2>Bootstrap</h2>
+  <p>For the navigation bar I used Bootstrap’s navbar and the toggler to hide stuff in a button to make the webpage more responsive.</p>
+  <h2>CSS</h2>
+  <p>To style index.html I created a css stylesheet with the name styles.css and the Harvard staff wanted us to style at least 5 css selectors and use at least 5 different css.properties.<br>
+    All the items that had a default style I used the body tag to style them. This way I didn’t have to repeat myself all the time. <br>
+    <code>body{<br>
+      font-family: 'Noto Sans JP', sans-serif;<br>
+      font-weight: 500;<br>
+      text-align: center;<br>
+      margin-bottom: 0px;<br>
+      background-color: white;<br>
+      }<br></code>
+    And wow in just one selector I showed you 5 different CSS properties!
+  </p>
+  <p>For the colors of the flag I used some class-names like red-space, white-space and blue-space. <br>
+    I think it’s clear what red-space, white-space and blue-space styled for the website. <br>
+    For a few elements I preferred an id, like #navigation-bar. I needed that because I wanted to modify the navigation bar to my personal needs.</p>
+  <h2>Javascript</h2>
+  <p>On the website I created a greeter that greets the visitor in the right local timezone.</p>
+  <h2>Responsive webpage</h2>
+  I checked so far if everything looks fine on different sizes. To my opnion it looks good.
+
+
+
+
+
+
+
+</body>
+
+</html>
