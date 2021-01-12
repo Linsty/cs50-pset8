@@ -26,6 +26,10 @@ a:hover {
   margin-bottom: 0px;
 }
 
+#embed-id{
+  padding-right: 0px;
+}
+
 .bodyiframe {
   font-weight: 200;
   text-align: left;
