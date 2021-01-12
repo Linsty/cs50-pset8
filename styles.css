@@ -31,8 +31,7 @@ a:hover {
 }
 
 #embed-id{
-  margin-right: 0px;
-  padding-right: 0px;
+  margin: auto 0px;
 }
 
 .bodyiframe {
