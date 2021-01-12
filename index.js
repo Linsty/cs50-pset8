@@ -12,15 +12,15 @@ function checkTime(){
   document.getElementById("copyright").innerHTML = "Copyright <i class='far fa-copyright'></i> " + year + " Marcia van den Hout";
   switch(daypart){
     case 0:
-    document.getElementById("navbarTitle").innerHTML = "<img class='nav-img rounded-circle' src='images/marcia.jpg'> Good night";
+    document.getElementById("navbarTitle").innerHTML = "<img class='nav-img rounded-circle' src='images/marcia.png'> Good night";
     break;
     case 1:
-    document.getElementById("navbarTitle").innerHTML = "<img class='nav-img rounded-circle' src='images/marcia.jpg'> Good morning";
+    document.getElementById("navbarTitle").innerHTML = "<img class='nav-img rounded-circle' src='images/marcia.png'> Good morning";
     break;
     case 2:
-    document.getElementById("navbarTitle").innerHTML = "<img class='nav-img rounded-circle' src='images/marcia.jpg'> Good afternoon";
+    document.getElementById("navbarTitle").innerHTML = "<img class='nav-img rounded-circle' src='images/marcia.png'> Good afternoon";
     break;
     case 3:
-    document.getElementById("navbarTitle").innerHTML = "<img class='nav-img rounded-circle' src='images/marcia.jpg'> Good Evening";
+    document.getElementById("navbarTitle").innerHTML = "<img class='nav-img rounded-circle' src='images/marcia.png'> Good Evening";
   }
 }
